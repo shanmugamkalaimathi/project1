@@ -1,6 +1,6 @@
 
 public class Aa {
-	public static void main(String a[]){
+	public static void main(String args[]){
 		String str = "Bj??rk????oacute?";
 		System.out.println(str);
 		str = str.replaceAll("[^\\p{ASCII}]", "");
